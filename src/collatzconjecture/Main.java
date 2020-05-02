@@ -11,7 +11,7 @@ public class Main {
         Collatz obj = new Collatz();
         ArrayList<Integer> list = obj.getCollatzString(num);
         System.out.println("It takes " + list.size() + " steps to reach '1' using the Collatz conjecture on the number " + num + ".");
+        System.out.println("Collatz Sequence :");
         System.out.println(list);
     }
 }
-
